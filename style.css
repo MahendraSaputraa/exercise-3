@@ -1,0 +1,35 @@
+table th{
+    border-bottom: 2px solid black;
+    margin :0 auto;
+    
+    animation-name: animasi;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   animation-direction: alternate
+    
+}
+table{
+    text-align: center;
+    font-size: 17px;
+    
+
+}
+input{
+    margin-bottom: 30px;
+    width: 25%;
+    font-size: 25px;
+}
+body{
+    padding:4px;
+   
+}
+@keyframes animasi{
+    from{
+        background-color:black;
+        color:white;
+    }
+    to{
+        background-color:white;
+        color:black;
+    }
+}
